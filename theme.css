@@ -1,4 +1,12 @@
 :root{
     --color-dark-blue: #12233F;
-    --Background-Default-Default: #FFFFFF;
+    --color-white: #FFFFFF;
+    --color-body-background: #edf6fc;
+    --color-border-grey: #d1d5db;
+    --color-box-shadow: #12233f14;
+    --color-border-lblue: #d7e4ee;
+    --color-border-hover: #bdc8d1;
+    --color-bright-blue: #176bce;
+    --color-button-hover: #135aab;
+    --color-grey-font: #5f6f85;
 }
