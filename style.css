@@ -98,12 +98,11 @@ body {
 }
 
 /* All cards */
-.current, .weather-det, .forercast-det-grid,
-.forecast-det, .weekfor-det{
+.current, .weather-det, .forercast-det-grid, .weekfor-det{
   border-radius: 8px;
   background-color: var(--color-white);
   box-shadow: 0px 8px 24px 0px var(--color-box-shadow);
-    border: 1px solid var(--color-border-lblue);
+  border: 1px solid var(--color-border-lblue);
 
 }
 
@@ -273,12 +272,29 @@ body {
 }
 
 .forecast-det {
+  border-radius: 8px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border-lblue);
   padding: 24px;
   align-items: center;
   flex-direction: column;
   padding: 24px;
   transition: all 0.18s;
   display: flex;
+}
+
+.forecast-det-active{
+  border-radius: 8px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border-lblue);
+  padding: 24px;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
+  transition: all 0.18s;
+  display: flex;
+  background-color: var(--color-bright-blue);
+  color: var(--color-white);
 }
 
 .forecast-det p {
@@ -308,7 +324,6 @@ body {
   padding: 24px;
   transition: all 0.18s;
   display: flex;
-  margin-right: 16px;
 }
 
 .weekfor-det:hover{
